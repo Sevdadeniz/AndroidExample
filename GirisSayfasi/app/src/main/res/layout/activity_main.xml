@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbfbfb"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        app:srcCompat="@mipmap/person"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <EditText
+        android:id="@+id/editTextKullanici_Adi"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextSifre"
+        android:layout_marginTop="230dp"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <EditText
+        android:id="@+id/editTextSifre"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <Button
+        android:id="@+id/buttonGiris"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextSifre"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/butonarka"
+        android:text="Giriş Yap"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="368dp" />
+</RelativeLayout>
