@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainActivity"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/open_map"
+                android:layout_weight="1"
+                android:background="@color/btn1"
+                android:text="Haritaya Git"
+
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/open_web"
+                android:layout_weight="1"
+                android:background="@color/btn2"
+                android:text="Web Sayfasına Git"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/send_sms"
+                android:layout_weight="1"
+                android:background="@color/btn3"
+                android:text="Sms Gönder"
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/dial_call"
+                android:layout_weight="1"
+                android:background="@color/btn4"
+                android:text="Arama Yap"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/open_foto_and_video"
+                android:layout_weight="1"
+                android:background="@color/btn5"
+                android:text="Foto ve Video Çek"
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:id="@+id/open_voice"
+                android:layout_weight="1"
+                android:background="@color/btn6"
+                android:text="Ses Kayıt"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

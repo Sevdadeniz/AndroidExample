@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Anasayfa"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/nav_health"
+            android:title="Sağlık"
+            android:icon="@drawable/love"/>
+
+
+        <item
+            android:id="@+id/nav_diet"
+            android:title="Diyet"
+            android:icon="@drawable/star"/>
+
+</menu>

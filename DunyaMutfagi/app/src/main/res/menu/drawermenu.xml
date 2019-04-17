@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/dunyamutfaklari" android:title="Dünya Mutfakları"/>
+    <item android:id="@+id/atistirmalik" android:title="Atıştırmalıklar"/>
+    <item android:id="@+id/balik" android:title="Balık"/>
+    <item android:id="@+id/borek" android:title="Börek"/>
+    <item android:id="@+id/corba" android:title="Çorba"/>
+    <item android:id="@+id/diyet" android:title="Diyet"/>
+    <item android:id="@+id/et" android:title="Et"/>
+    <item android:id="@+id/hamurisi" android:title="Hamur İşi"/>
+    <item android:id="@+id/kahvaltilik" android:title="Kahvaltılık"/>
+    <item android:id="@+id/kek" android:title="Kek"/>
+    <item android:id="@+id/kofte" android:title="Köfte"/>
+    <item android:id="@+id/kurabiye" android:title="Kurabiye"/>
+    <item android:id="@+id/makarna" android:title="Makarna"/>
+    <item android:id="@+id/meze" android:title="Meze"/>
+    <item android:id="@+id/pasta" android:title="Pasta"/>
+    <item android:id="@+id/pilav" android:title="Pilav"/>
+    <item android:id="@+id/pizza" android:title="Pizza"/>
+    <item android:id="@+id/pogaca" android:title="Poğaça"/>
+    <item android:id="@+id/salata" android:title="Salata"/>
+    <item android:id="@+id/sebze" android:title="Sebze"/>
+    <item android:id="@+id/tatli" android:title="Tatlı"/>
+    <item android:id="@+id/tavuk" android:title="Tatlı"/>
+    <item android:id="@+id/zeytinyagli" android:title="Zeytinyağlı"/>
+
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Health">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/in" />
+    </ScrollView>
+    <ScrollView
+        android:layout_marginTop="200dp"
+        android:layout_width="500dp"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="278dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="45dp"
+            android:text="
+
+MALZEMELER
+1 paket Akdeniz yeşilliği
+
+1 demet roka
+
+12 adet konserve mantar
+
+2 adet kırmızı biber
+
+8 adet biberli zeytin, 6 adet ceviz
+
+50 gram hellim peyniri
+
+4 adet bebek mısır
+
+Krema sosu için:
+
+1 tatlı kaşığı hardal
+
+1 Türk kahvesi fincanı krema
+
+1 çorba kaşığı zeytinyağı
+
+Yarım limonun suyu
+
+2 çorba kaşığı sirke, tuz
+
+
+
+YAPILIŞI
+İri parçalar halinde kopardığınız Akdeniz yeşilliği ve rokayı servis tabağına alın. Üzerine mantar, doğranmış kırmızı biber, zeytin, iri kıyılmış ceviz, küp doğranmış hellim peyniri ve bebek mısırı ilave edin. Krema sosu için bir kapta krema, hardal, zeytinyağı, limon suyu, sirke ve tuzu karıştırın. Salatanın üzerine gezdirin." />
+
+    </ScrollView>
+
+
+</RelativeLayout>

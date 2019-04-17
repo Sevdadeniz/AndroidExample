@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical"
+    tools:context=".LoginScreen"
+    >
+
+
+    <EditText
+        android:id="@+id/editTextKullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:textSize="14dp"
+        android:inputType="textEmailSubject" />
+
+    <EditText
+        android:id="@+id/editTextSifre"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:textSize="14dp" />
+
+
+    <Button
+        android:id="@+id/btnkaydol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Giriş Yap"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        android:onClick="btnkaydol"
+        />
+
+    <TextView
+        android:id="@+id/textviewSUnuttum"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="115dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="Şifremi Unuttum"
+        android:textSize="14dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="textviewSUnuttum"
+        />
+
+    <TextView
+        android:id="@+id/textviewKayit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="140dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="Kaydol"
+        android:textSize="14dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="textviewKayit"/>
+
+</LinearLayout>

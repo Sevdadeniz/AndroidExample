@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/hesabim" android:title="Hesabım" android:icon="@drawable/users" />
+    <item android:id="@+id/havadurumu" android:title="Hava Durumu" android:icon="@drawable/havadurumu"/>
+    <item android:id="@+id/muzik" android:title="Müzik" android:icon="@drawable/music"/>
+    <item android:id="@+id/eglence" android:title="Eğlence" android:icon="@drawable/smile"/>/>
+    <item android:id="@+id/spor" android:title="Spor" />
+    <item android:id="@+id/magazin" android:title="Magazin/Moda"/>
+    <item android:id="@+id/egitim" android:title="Eğitim" android:icon="@drawable/egitimm"/>
+    <item android:id="@+id/siyaset" android:title="Siyaset" />
+    <item android:id="@+id/sanat" android:title="Sanat" />
+    <item android:id="@+id/haber" android:title="Haber" android:icon="@drawable/haber"/>
+    <item android:id="@+id/ekonomi" android:title="Ekonomi" android:icon="@drawable/ekonomi"/>
+    <item android:id="@+id/teknoloji" android:title="Teknoloji" android:icon="@drawable/teknoloji2"/>
+    <item android:id="@+id/bilim" android:title="Bilim" />
+    <item android:id="@+id/saglik" android:title="Sağlık" android:icon="@drawable/love"/>
+    <item android:id="@+id/cikis" android:title="Çıkış Yap" android:icon="@drawable/cikis"/>
+
+
+</menu>
