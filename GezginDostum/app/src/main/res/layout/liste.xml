@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="360dp"
+        android:layout_height="79dp"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+
+    <TextView
+        android:id="@+id/sehiradi"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:text="TextView"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <TextView
+        android:id="@+id/sehiraciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:text="TextView"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+
+</RelativeLayout>

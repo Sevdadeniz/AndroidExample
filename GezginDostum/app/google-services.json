@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "50518391119",
+    "firebase_url": "https://gezginapp-74203.firebaseio.com",
+    "project_id": "gezginapp-74203",
+    "storage_bucket": "gezginapp-74203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50518391119:android:abc055d659e41509",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.gezgindostum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50518391119-ln0f45b5m9n2v7krjtpjf8bveslmgser.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHIy9KC0-SVqXMKa1YFFiIoOoNz_lS2UE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50518391119-ln0f45b5m9n2v7krjtpjf8bveslmgser.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
