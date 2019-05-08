@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ToplamaFragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lila">
+
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="157dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/top1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="23dp"
+                android:text="S1"
+                android:textColor="#000"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/top"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/toplama" />
+
+
+            <TextView
+                android:id="@+id/top2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="S2"
+                android:textColor="#000"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/topesit"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/esit" />
+
+            <EditText
+                android:id="@+id/sonuctoplam"
+                android:layout_width="82dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="28dp"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textSize="35dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/toplamsonucu"
+            android:layout_width="215dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="229dp"
+            android:background="@drawable/buttonstyle"
+            android:text="SONUCU GÖSTER"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/dogrutoplam"
+            android:layout_width="302dp"
+            android:layout_height="74dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="127dp"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/toplamYenile"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="62dp"
+            android:background="#79af9e"
+            android:text="Yenile"
+            android:textSize="13dp" />
+    </RelativeLayout>
+</FrameLayout>

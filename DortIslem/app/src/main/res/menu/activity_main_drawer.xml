@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bilgi"
+            android:icon="@drawable/bilgi"
+            android:title="Bilgi" />
+        <item
+            android:id="@+id/nav_carpimtab"
+            android:icon="@drawable/carpimtab"
+            android:title="Çarpım Tablosu" />
+
+    </group>
+
+    <item android:title="Islemler">
+        <menu>
+            <item
+                android:id="@+id/nav_toplama"
+                android:icon="@drawable/toplama"
+                android:title="Toplama" />
+            <item
+                android:id="@+id/nav_cikarma"
+                android:icon="@drawable/cikarma"
+                android:title="Çıkarma" />
+            <item
+                android:id="@+id/nav_carpma"
+                android:icon="@drawable/carpma"
+                android:title="Çarpma" />
+            <item
+                android:id="@+id/nav_bolme"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Bölme" />
+        </menu>
+    </item>
+
+</menu>

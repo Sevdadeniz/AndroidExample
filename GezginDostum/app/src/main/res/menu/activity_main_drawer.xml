@@ -12,6 +12,10 @@
             android:id="@+id/nav_profile"
             android:icon="@drawable/person"
             android:title="Profilim" />
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/note"
+            android:title="Notlarım" />
 
     </group>
 

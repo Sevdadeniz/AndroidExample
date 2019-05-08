@@ -18,6 +18,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import com.example.lenovo.gezgindostum.R;
 import com.example.lenovo.gezgindostum.fragments.HomeFragment;
+import com.example.lenovo.gezgindostum.fragments.MyNotesFragment;
 import com.example.lenovo.gezgindostum.fragments.ProfileFragment;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -102,8 +103,12 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_home) {
             selectedFragment = new HomeFragment();
-        } else if (id == R.id.nav_profile) {
+        }
+        else if (id == R.id.nav_profile) {
             selectedFragment = new ProfileFragment();
+        }
+        else if (id == R.id.nav_note) {
+            selectedFragment = new MyNotesFragment();
         } else if (id == R.id.nav_signout) {
             mAuth.signOut();
             startActivity(new Intent(getApplicationContext(),LoginActivity.class));

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#65041d</color>
+    <color name="colorPrimaryDark">#5a031a</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yesil">#d0e4a4 </color>
+    <color name="mavi">#d0eedf </color>
+    <color name="turuncu">#f2cc92</color>
+    <color name="lila">#f1e0e0</color>
+</resources>

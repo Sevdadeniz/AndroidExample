@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.BolmeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/yesil">
+
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="188dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sayi1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="23dp"
+                android:text="S1"
+                android:textColor="#000"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/top"
+                android:layout_width="50dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="15dp"
+                android:text="/"
+                android:textColor="#000"
+                android:textSize="35dp" />
+
+
+            <TextView
+                android:id="@+id/sayi2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="23dp"
+                android:text="S2"
+                android:textColor="#000"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/esit"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/esit" />
+
+            <TextView
+                android:id="@+id/sonuc"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="23dp"
+                android:text="S"
+                android:textColor="#000"
+                android:textSize="35dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/dogruyugöster"
+            android:layout_width="215dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="184dp"
+            android:background="@drawable/buttonstyle"
+            android:text="SONUCU GÖSTER"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/dogruSonuc"
+            android:layout_width="99dp"
+            android:layout_height="59dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="95dp"
+            android:text="DS"
+            android:textColor="#000"
+            android:textSize="35dp" />
+    </RelativeLayout>
+</FrameLayout>
