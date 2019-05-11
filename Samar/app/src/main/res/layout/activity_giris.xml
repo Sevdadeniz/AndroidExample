@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GirisActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/bg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="410dp"
+            android:layout_centerInParent="true"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="93dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="380dp"
+                android:alpha="0.9"
+                app:cardBackgroundColor="@color/cardbg"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/icon"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Giriş"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorAccent"
+                        android:layout_gravity="center"
+                        />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tilkullaniciadi"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/kullaniciadi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Kullanıcı Adı yada E posta"
+                            android:inputType="textEmailSubject"
+                            android:imeOptions="actionNext"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tilsifre"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/sifre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Şifre"
+                            android:imeOptions="actionDone"
+                            android:inputType="textPassword"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <CheckBox
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Beni Hatırla"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="-27dp"
+                app:srcCompat="@drawable/check"
+                tools:ignore="VectorDrawableCompat"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/sifremi_unuttum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="41dp"
+            android:text="Şifremi Unuttum"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="475dp" />
+
+
+        <TextView
+            android:id="@+id/kaydol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sifremi_unuttum"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-41dp"
+            android:text="Kayıt Ol"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="162dp"
+            tools:layout_editor_absoluteY="475dp" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
