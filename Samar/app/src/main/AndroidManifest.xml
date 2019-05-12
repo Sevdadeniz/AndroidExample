@@ -3,20 +3,32 @@
     package="com.example.lenovo.samar">
 
     <application
+
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GirisActivity"
-            android:theme="@style/TamEkran">
 
+        <activity
+            android:name=".GirisActivity"
+            android:theme="@style/TamEkran">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".KayitActivity"
+            android:parentActivityName=".GirisActivity"
+            android:theme="@style/TamEkran">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GirisActivity" />
+        </activity>
+
     </application>
 
 </manifest>
