@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "313688939052",
+    "firebase_url": "https://eticaret-75a3b.firebaseio.com",
+    "project_id": "eticaret-75a3b",
+    "storage_bucket": "eticaret-75a3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313688939052:android:88546a3d2a8bed99",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.eticaret"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313688939052-jkfneudue4sg73i8rmr0rj2pv814go5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.eticaret",
+            "certificate_hash": "0e975d9f4829c88e7cd99932bf8cc9972a770cee"
+          }
+        },
+        {
+          "client_id": "313688939052-4vpakpleir55ukv9pioihbt8784i9a2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOeoKe7n58Mi9bmQ6ooA8a9iYXgc669bI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313688939052-4vpakpleir55ukv9pioihbt8784i9a2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
